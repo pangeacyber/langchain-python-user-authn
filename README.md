@@ -1,4 +1,4 @@
-# langchain-python-user-authn
+# Authenticating Users for Access Control with RAG for LangChain in Python
 
 An example CLI tool in Python demonstrating how to integrate Pangea's [AuthN][]
 and [AuthZ][] services into a LangChain app to filter out RAG documents based on
@@ -11,11 +11,17 @@ user permissions.
 - A [Pangea account][Pangea signup] with AuthN and AuthZ enabled.
 - An [OpenAI API key][OpenAI API keys].
 - libmagic
-  - macOS: `brew install libmagic`
-  - Windows: included via the python-magic-bin package
+  
+## Setup
 
-The setup in AuthN should include `http://localhost:3000` as a redirect
-(callback) URL.
+### Pangea AuthN
+
+After activating AuthN, under AuthN > General > Redirect (Callback) Settings, 
+add `http://localhost:3000` as a redirect and save.
+
+Under AuthN > Users > New > Create User, create at least one user.
+
+### Pangea AuthZ
 
 The setup in AuthZ should look something like this:
 
@@ -47,17 +53,31 @@ The setup in AuthZ should look something like this:
 
 ### Assigned roles & relations
 
-| Subject type | Subject ID        | Role/Relation |
-| ------------ | ----------------- | ------------- |
-| user         | alice@example.org | engineering   |
-| user         | bob@example.org   | finance       |
+| Subject type | Subject ID          | Role/Relation |
+| ------------ | -----------------   | ------------- |
+| user         | your AuthN username | engineering   |
+| user         | bob@example.org     | finance       |
 
-## Setup
+*Note:* Change or add assigned roles for your user to change permissions and access over time.
+
+### Configure the Code
 
 ```shell
 git clone https://github.com/pangeacyber/langchain-python-user-authn.git
 cd langchain-python-user-authn
 ```
+
+#### Install libmagic
+
+This is included in Windows via the python-magic-bin package
+
+On macOS, you can install via this shell command:
+
+```shell
+brew install libmagic
+```
+
+#### Set up Project
 
 If using pip:
 
@@ -77,7 +97,7 @@ source .venv/bin/activate
 The sample can then be executed with:
 
 ```shell
-python -m langchain_user_authn
+python -m langchain_user_authn "What is the software architecture of the company?"
 ```
 
 ## Usage
