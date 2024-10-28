@@ -714,7 +714,7 @@ dependencies = [
     { name = "unstructured", extra = ["md"] },
 ]
 
-[package.dependency-groups]
+[package.dev-dependencies]
 dev = [
     { name = "mypy" },
     { name = "ruff" },
@@ -733,10 +733,10 @@ requires-dist = [
     { name = "python-dotenv", specifier = ">=1.0.1" },
     { name = "python-magic", specifier = ">=0.4.27" },
     { name = "python-magic-bin", marker = "platform_system == 'Windows'", specifier = ">=0.4.14" },
-    { name = "unstructured", extras = ["md"], specifier = ">=0.16.2" },
+    { name = "unstructured", extras = ["md"], specifier = ">=0.16.3" },
 ]
 
-[package.metadata.dependency-groups]
+[package.metadata.requires-dev]
 dev = [
     { name = "mypy", specifier = ">=1.13.0" },
     { name = "ruff", specifier = ">=0.7.1" },
