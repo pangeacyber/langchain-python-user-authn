@@ -686,16 +686,16 @@ wheels = [
 
 [[package]]
 name = "langchain-openai"
-version = "0.3.5"
+version = "0.3.6"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "langchain-core" },
     { name = "openai" },
     { name = "tiktoken" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fe/18/c7829a2ce2977d22db582d19b311d7dc3d100a51c32f5766517ee3474c26/langchain_openai-0.3.5.tar.gz", hash = "sha256:40cd5649b93b1af20a20e1cbee5a47628a77e15114a11f9b3f2ab08c7d1302bf", size = 255643 }
+sdist = { url = "https://files.pythonhosted.org/packages/72/67/4c2f371315bd1dd1163f3d1d48d271649e5c4b81b1982c38db3761b883a5/langchain_openai-0.3.6.tar.gz", hash = "sha256:7daf92e1cd98865ab5213ec5bec2cbd6c28f011e250714978b3a99c7e4fc88ce", size = 255792 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/9a/4a/18e98bb61e00f0553383fd14997a8d778999f5cf80109a74eb746a1f5919/langchain_openai-0.3.5-py3-none-any.whl", hash = "sha256:137a7514f11afeab26e5fc1eda3c2b96fbbb18a96d963ba256faecceb189ea71", size = 54982 },
+    { url = "https://files.pythonhosted.org/packages/b5/49/302754c09f955e4a240efe83e48f4e79149d50ca52b3f4731365f1be94b1/langchain_openai-0.3.6-py3-none-any.whl", hash = "sha256:05f0869f6cc963e2ec9e2e54ea1038d9c2af784c67f0e217040dfc918b31649a", size = 54930 },
 ]
 
 [[package]]
@@ -1070,7 +1070,7 @@ wheels = [
 
 [[package]]
 name = "pangea-sdk"
-version = "5.4.0"
+version = "5.5.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiohttp" },
@@ -1083,9 +1083,9 @@ dependencies = [
     { name = "requests-toolbelt" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/88/9f/6022473b9af3e10c35077f6e9d8debe5b1db33895eefd9c3cfcd1752ee87/pangea_sdk-5.4.0.tar.gz", hash = "sha256:647531e07d174741f2e38348a15b0d57621ce0f646ffee6450842b9dc3ef815e", size = 123444 }
+sdist = { url = "https://files.pythonhosted.org/packages/fd/26/92939fe74160fbcfae16bc42f94a3236710525237c53293fdcb52885a0fe/pangea_sdk-5.5.0.tar.gz", hash = "sha256:a2ec0123c4aeb156c0ee78d285c9990b495648de0c3f173f5d7b6df31b44c71b", size = 127560 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a5/f0/a86fdcabe52e9943973044349f8f050d9355ab491e82d2651b2b4d63ba82/pangea_sdk-5.4.0-py3-none-any.whl", hash = "sha256:59aa45e7da639d9c2be00afba2b651a0b6414cc05821404577ea65d85a0d2ff2", size = 150345 },
+    { url = "https://files.pythonhosted.org/packages/1f/08/5c6e5438264ab92958a5180ae36bd9c0dc455771b00bd19ac416928172b0/pangea_sdk-5.5.0-py3-none-any.whl", hash = "sha256:ca4521e4585bfa7725484bb56d42eaeb2e49250d1c35b6147dfae40f6fa335ee", size = 156916 },
 ]
 
 [[package]]
@@ -1606,7 +1606,7 @@ md = [
 
 [[package]]
 name = "unstructured-client"
-version = "0.30.0"
+version = "0.30.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "aiofiles" },
@@ -1620,9 +1620,9 @@ dependencies = [
     { name = "requests-toolbelt" },
     { name = "typing-inspect" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/fb/7d/35513e71ac56ecdff5c3b86787b34bd15dfe43f22711847213092f17f068/unstructured_client-0.30.0.tar.gz", hash = "sha256:24ea3574f449b2394d14b68f4a054b0850a84b30d7cdf82093cfb4779788b807", size = 63514 }
+sdist = { url = "https://files.pythonhosted.org/packages/3d/9b/98b0295bbb1b2db29d9eed2471dcd54e96f647a0c0a434a396699578d300/unstructured_client-0.30.1.tar.gz", hash = "sha256:b98c12f7aa9feb2bed9ffdc29f1fe2be68d63bda159b84355c38a296c0dd53a2", size = 63468 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/5c/4e/3fc8760fe6cf4ff3b6d2a5fa7cf4c5546715167352a5f36858ba1b32638d/unstructured_client-0.30.0-py3-none-any.whl", hash = "sha256:919c17a2bede159b71fcfe036097d9c283c8488529a11cd3a0170a6ea7520c7e", size = 112509 },
+    { url = "https://files.pythonhosted.org/packages/a3/9f/41aac7d58e6f6d9d936d35a3c6100a1871d2659f79e23acc294f2eba03bd/unstructured_client-0.30.1-py3-none-any.whl", hash = "sha256:f12c68cfd094678ce2938038ef5434713d75fe6eaa2988b9313bdf9954bf2ad3", size = 112465 },
 ]
 
 [[package]]
