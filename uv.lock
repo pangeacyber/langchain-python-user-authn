@@ -779,7 +779,7 @@ requires-dist = [
     { name = "click", specifier = ">=8.2.1" },
     { name = "faiss-cpu", specifier = ">=1.11.0" },
     { name = "flask", specifier = ">=3.1.1" },
-    { name = "langchain", specifier = ">=0.3.25" },
+    { name = "langchain", specifier = ">=0.3.26" },
     { name = "langchain-community", specifier = ">=0.3.25" },
     { name = "langchain-openai", specifier = ">=0.3.24" },
     { name = "pangea-sdk", specifier = ">=6.1.1" },
