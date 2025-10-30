@@ -18,7 +18,7 @@ dependencies = [
     "langchain==0.3.27",
     "pangea-sdk==6.8.0",
     "pydantic==2.12.3",
-    "python-dotenv==1.1.1",
+    "python-dotenv==1.2.1",
     "python-magic-bin==0.4.14; platform_system == 'Windows'",
     "python-magic==0.4.27",
     "unstructured[md]==0.18.15",
