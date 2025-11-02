@@ -15,7 +15,7 @@ dependencies = [
     "flask==3.1.2",
     "langchain-community==0.3.31",
     "langchain-openai==0.3.35",
-    "langchain==0.3.27",
+    "langchain==1.0.3",
     "pangea-sdk==6.10.0",
     "pydantic==2.12.3",
     "python-dotenv==1.2.1",
